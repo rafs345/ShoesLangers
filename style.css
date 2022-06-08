@@ -1,0 +1,294 @@
+body {
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(nike2.jpg);
+}
+
+/* header */
+
+ .nav {
+    font-size: 20px;
+    padding: 20px 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
+nav {
+    border: 0px solid white;
+    box-shadow: 0px 0px 50px black; 
+    border-radius: 10px;
+    width: 600px;
+    background-color: white;
+    margin-left: 375px;
+    margin-top: 30px;
+    margin-right: 375px;
+    text-align: right;
+
+}
+
+
+
+/* main */
+
+
+h1 {
+    height: 250px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+span {
+    position: relative;
+    top: 70px; 
+}
+
+h3 {
+    padding: 20px 0px 0px 0px;
+    font-size: 60px;
+    color: rgb(198, 6, 6);
+}
+
+.p1 {
+    margin-top: -50px;
+    font-size: 30px;
+}
+
+p, h3, .p1 {
+    text-align: center;
+}
+
+.white {
+    border: 0px solid white;
+    box-shadow: 0px 0px 50px black; 
+    border-radius: 10px;
+    margin: 0px 50px;
+    background-color: white;
+    height: 2750px;
+}
+
+.white2 {
+    border: 0px solid white;
+    box-shadow: 0px 0px 70px black; 
+    border-radius: 10px;
+    margin: 0px 250px;
+    background-color: white;
+    height: 700px;
+}
+
+.tenis {
+    display: block;
+    width: 1200px;
+    margin-left: 60px;
+}
+
+.jordan img {
+    padding: 10px 90px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 40px black;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+.jordan {
+
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px black;
+    width: auto;
+
+}
+
+.force {
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px black;
+    width: auto; 
+}
+
+.force img {
+    padding: 10px 90px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 40px black;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.dunk {
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px black;
+    width: auto; 
+}
+
+
+.dunk img {
+    padding: 10px 90px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 40px black;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.nome {
+    font-family: 'Lobster', cursive;
+    padding-top: 30px;
+    
+}
+
+.nome:hover {
+    text-shadow: 0px 0px 15px black;
+    color: white;
+}
+
+
+
+form{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.space {
+    height: 30px;
+}
+
+.contato {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.footerNome {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+h4{
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: -20px;
+    text-shadow: 0px 0px 60px red;
+}
+
+section img{
+    width: 400px;
+    padding: 0px 90px;
+    position: relative;
+    top: 110px;
+    left: 110px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px black;
+      
+}
+h5{
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 0px 0px 60px red;
+}
+h6{
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0px 0px 60px red;
+    position: relative;
+    top: -20px;
+}
+.p2{
+    text-align: right;
+    position: relative;
+    top: -500px;
+    font-weight: 100;
+    right: 10px;
+    font-family: 'Satisfy', cursive;
+    color: brown;
+}
+
+div p {
+    font-size: 30px;
+    
+}
+.p3{
+    text-align: right;
+    position: relative;
+    top: -550px;
+    font-weight: 100;
+    right: 10px;
+    font-family: 'Satisfy', cursive;
+    color: brown;
+      }
+ .p4{
+    text-align: right;
+    position: relative;
+    top: -565px;
+    font-weight: 100;
+    right: 10px;
+    font-family: 'Satisfy', cursive;
+    color: brown;
+          }
+h4:hover{
+    color: white;
+}
+h5:hover{
+    color: white;
+}
+h6:hover{
+    color: white;
+}
+
+.logo {
+    z-index: 100;
+    margin-left: 1200px;
+    position: fixed;
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 70px;
+    box-shadow: 0px 0px 5px darkred;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.caixazinha {
+    margin-top: 115px;
+    margin-left: 1200px;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    border: 0px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 5px darkred;
+    text-align: center;
+}
+
+
+.cont {
+    color: black;
+}

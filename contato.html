@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="pngegg.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav" href="index.html" target="_blank"> HOME </a> |
+            <a class="nav" href="catalogo.html" target="_blank"> Catalogo</a> |
+            <a class="nav" href="contato.html" target="_blank"> Contato</a>
+        </nav>
+    </header>
+    
+    <div>
+        <h1><span>ShoesLanger</span></h1>
+    </div>
+   
+    
+    <div class="white2">  
+        <p class="contato">Entre em contato conosco!!</p>
+        <form action="" accept-charset="utf-8" method=""
+    name="form">
+   
+    <!-- exemplo nome, senha e email-->
+    <label for="nome">Nome</label> <br>
+    <input type="text" name="nome" id="nome" size="50" placeholder="Digite seu nome"
+    required autofocus maxlength="10" > <br>
+    <label for="email">E-mail</label><br>
+    <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail"><br>
+    <label for="senha"> Senha</label><br>
+    <input type="password" name="senha" id="senha" placeholder="Crie uma senha">
+    <br>
+    <!-- CAIXA DE TEXTO-->
+    <label for="obs">Observação </label><br>
+    <textarea name="obs" id="obs" cols="30" rows="10" placeholder="Alguma observação a fazer sobre nosso site?"></textarea><br>
+    <!-- Caixa de seleção-->
+    <label for="selecao"> Selecione o Estado </label> <br>
+    <select name="estado" id="estado">
+        <option value="SC"> Santa Catarina</option>
+        <option value="SP">São Paulo </option>
+        <option value="PR">Paraná</option>
+        <option value="SC"> Pernambuco</option>
+        <option value="SP">Rio de Janeiro </option>
+        <option value="PR">Minas Gerais</option>
+        <option value="SC"> Bahia</option>
+        <option value="SP">Brasilia </option>
+        <option value="PR">Rio Grande Do Norte</option>
+    </select>
+    <!-- idade campo number-->
+    <br>
+    <label for="idade"> Idade</label><br>
+    <input type="number" name="idade" id="idade" min="0" max="110">
+    <br>
+    <!-- data local-->
+    <label for="data">Data</label><br>
+    <input type="datetime-local" name="data" id="data">
+    <br>
+    <!-- range-->
+    <input type="range" name="range" id="range" min="5" max="15">
+  <br>
+    <input type="submit" value="Enviar"> 
+    <input type="reset" value="Apagar"> <br><br>
+ 
+    </form>
+    
+
+    </form></div>
+
+    <div class="space"></div>
+
+    
+    <footer>
+        <span class="footerNome"> &copy; RafaelDaSilvaSousa RGM:30329973 Aplicações Para Internet</span>
+     </footer>
+</body>
+</html>
